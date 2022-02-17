@@ -1,14 +1,6 @@
 # Windrad-Vogelabwehr
-Erkennung und Ablenken von Wildvögeln im Umkreis von Windkraftanlagen
+Dieses Projekt beschäftigt sich mit der Erkennung von Wildvögeln im Umkreis von Windkraftanlagen,
+um diese zu tracken, und eine mögliche Kollision mit der Anlage zu prognostizieren.
 
-Für die Erkennung werden folgende Bibliotheken gebraucht:
-- Numpy
-- OpenCV
-- Imutils
-
-Installation:
-pip install opencv-python
-pip install imutils
-
-Numpy sollte vorinstalliert sein
-
+Die Erkennung basiert auf einfacher Bildverarbeitung, wie Motiondetection, Klassifikation der Ergebnisse,
+Maskierung der Windkraftanlage und Tracking der bewegten Vögel.
